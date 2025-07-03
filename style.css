@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("https://10websites-design-to-html-css.netlify.app/restaurant-design/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+}
+.upperNav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  width: 100%;
+}
+.upperNav a {
+  text-decoration: none;
+  color: #0a6e78;
+  padding: 30px 180px;
+}
+.upperNav p {
+  padding: 30px 180px;
+}
+.LowerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LowerNav a {
+  color: white;
+  text-decoration: none;
+  background-color: #0a6e78;
+  font-size: 20px;
+  padding: 10px 70px;
+}
+.LowerNav a:hover {
+  background-color: #209ca7;
+}
+.selected {
+  background-color: white !important;
+  color: #1b858e !important;
+}
+.highlighted {
+  background-color: #075a61 !important;
+  color: #ffffff !important;
+}
+
+/* Content */
+.Content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 30px;
+  padding-top: 100px;
+  padding-left: 180px;
+}
+.Content h1 {
+  font-size: 70px;
+  background-color: #075a61;
+  padding: 20px 10px;
+  width: fit-content;
+}
+
+.book {
+  font-size: 30px;
+  padding: 20px 30px;
+  background-color: white;
+  color: #075a61;
+  width: fit-content;
+}
+.view {
+  font-size: 30px;
+  background-color: #2d99a4;
+  color: white;
+  width: fit-content;
+  padding: 20px 30px;
+}
+/* hover */
+.upperNav p:hover {
+  color: rgb(236, 236, 236);
+}
+
+.upperNav a:hover {
+  color: #1b858e;
+}
+.highlighted:hover {
+  background-color: #1b858e !important;
+}
+.selected:hover {
+  background-color: rgb(236, 236, 236) !important;
+}
